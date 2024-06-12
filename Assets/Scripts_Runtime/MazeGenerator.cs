@@ -16,7 +16,6 @@ namespace Dig {
         public Tilemap tilemap;
         public GameObject map;
         int[,] maze;
-        public bool isBoundaryWall;
 
         void Start() {
             maze = new int[width, height];
@@ -24,7 +23,7 @@ namespace Dig {
         }
 
         void Gen() {
-            FunctionHelper.GenMaze(genType, width, height, isBoundaryWall, maze);
+            FunctionHelper.GenMaze(genType, width, height, maze);
             RenderMaze();
         }
 

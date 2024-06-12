@@ -4,12 +4,8 @@ namespace Dig {
 
         None,
         DFS,
-        BFS,
-        RecursiveDivision,
         BinaryTree,
         HuntAndKill,
-        Sidewinder,
-        Spiral,
 
     }
 
