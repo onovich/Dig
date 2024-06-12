@@ -343,12 +343,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   terrainTM: {fileID: 11400000, guid: 3226206f04caa4b4fbc75d7fb796a0c4, type: 2}
-  genType: 0
-  width: 34
-  height: 20
+  genType: 1
+  width: 35
+  height: 19
   scale: 0.5
   tilemap: {fileID: 1646112903}
   map: {fileID: 149636264}
+  isBoundaryWall: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
